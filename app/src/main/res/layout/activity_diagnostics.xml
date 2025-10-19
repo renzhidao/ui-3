@@ -1,0 +1,39 @@
+<TextView
+      android:text="诊断（演示 UI，无真实功能）"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"/>
+
+  <TextView
+      android:text="会话状态：未连接"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+
+  <TextView
+      android:text="端口：10000（展示）"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"/>
+
+  <TextView
+      android:text="IME 活跃：否（展示）"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"/>
+
+  <TextView
+      android:text="最近日志（演示）："
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="8dp"/>
+
+  <TextView
+      android:text="- 00:00:01 初始化 UI\n- 00:00:02 等待连接…\n- 00:00:05 用户打开编辑页"
+      android:background="#F5F5F5"
+      android:padding="12dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>

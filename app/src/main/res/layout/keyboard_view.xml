@@ -1,0 +1,14 @@
+<TextView
+    android:id="@+id/tvStatus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="远程输入法 - 预览（UI）"
+    android:gravity="center"
+    android:padding="8dp"
+    android:textColor="#333" />
+
+<Button
+    android:id="@+id/btnSwitchIme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="切换系统输入法（演示按钮）"/>

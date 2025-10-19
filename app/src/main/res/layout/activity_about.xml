@@ -1,0 +1,18 @@
+<TextView
+    android:text="关于（UI 演示）"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"/>
+
+<TextView
+    android:text="这是一个仅包含界面的演示应用，不含任何联网与系统服务逻辑。"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"/>
+
+<Button
+    android:text="项目主页（示例）"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

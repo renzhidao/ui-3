@@ -1,0 +1,49 @@
+<TextView
+    android:id="@+id/tvTitle"
+    android:text="远程输入法 UI 演示"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"/>
+
+<Button
+    android:id="@+id/btnSender"
+    android:text="发送端 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/btnImeGuide"
+    android:text="IME 引导 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+
+<Button
+    android:id="@+id/btnKeyboardPreview"
+    android:text="键盘预览 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+
+<Button
+    android:id="@+id/btnDiagnostics"
+    android:text="诊断 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+
+<Button
+    android:id="@+id/btnSettings"
+    android:text="设置 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+
+<Button
+    android:id="@+id/btnAbout"
+    android:text="关于 UI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>

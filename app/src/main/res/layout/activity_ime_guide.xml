@@ -1,0 +1,30 @@
+<TextView
+      android:text="启用并使用远程输入法（演示 UI）"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"/>
+
+  <TextView
+      android:text="步骤 1：前往系统设置 → 语言和输入法 → 管理键盘 → 启用“远程输入法”"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"/>
+
+  <TextView
+      android:text="步骤 2：切换默认输入法为“远程输入法”"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"/>
+
+  <TextView
+      android:text="步骤 3：打开任意文本输入框体验（或使用“键盘预览”界面）"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="12dp"/>
+
+  <Button
+      android:text="打开键盘预览"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>

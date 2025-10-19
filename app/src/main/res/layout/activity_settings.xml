@@ -1,0 +1,40 @@
+<TextView
+      android:text="设置（演示 UI）"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"/>
+
+  <TextView
+      android:text="主题"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+
+  <RadioGroup
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <RadioButton android:text="跟随系统" android:checked="true"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <RadioButton android:text="亮色" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <RadioButton android:text="暗色" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </RadioGroup>
+
+  <TextView
+      android:text="语言"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"/>
+
+  <RadioGroup
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <RadioButton android:text="自动" android:checked="true"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <RadioButton android:text="中文" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+      <RadioButton android:text="English" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  </RadioGroup>
